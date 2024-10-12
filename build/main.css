@@ -1,0 +1,46 @@
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3% 5% 3% 5%/3% 5% 3% 5%;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: bacground-color 0.3s;
+}
+.btn-custom :hover {
+  background-color: #0056b3;
+}
+
+.bg-header {
+  background-color: blue;
+}
+
+.ajuste-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ajuste-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.sobre-logo {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.borda-card {
+  padding-top: 1rem;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
